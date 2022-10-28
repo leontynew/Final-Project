@@ -263,7 +263,7 @@ def train_model(train_loader, gamma, learning_rate, num_epochs):
 
         print(f"Epoch {epoch+1}/{num_epochs}, Average loss: {train_loss_mean:.4f}")
 
-    return net, mesn_train_loss, loss_history
+    return net, men_train_loss, loss_history
 
 net, mean_train_loss, loss_history = train_model(train_loader, gamma, learning_rate, num_epochs)
 
